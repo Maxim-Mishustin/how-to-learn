@@ -13,7 +13,39 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
   /* выше установили ограничения для секции */
+}
+
+.logo_place_header {
+height: 32px;
+width: 228px;
+position: absolute;
+margin-top: 30px;
+margin-right: 64px;
+}
+
+.header__title {
+line-height: 96px;
+max-width: 730px;
+font-size: 102px;
+padding-left: 64px;
+}
+
+.header__subtitle {
+
+}
+/* ниже высота и ширина от балды */
+.header__main-illustration {
+  height: 32px;
+  width: 228px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -22,7 +54,30 @@
   width: 568px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.description {
+  margin: 0;
+  padding: 0;
+}
+
+.description__two-columns {
+
+}
+
+.two-columns__brief {
+
+}
+
+.two-columns__main-text {
+
+}
+
+
+
+
+
+
+
+/* и элемента с модификатором вида ключ-значение (это 4 или 5й блок) */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
