@@ -43,9 +43,11 @@ padding-left: 64px;
 
 }
 /* ниже высота и ширина от балды */
+
 .header__main-illustration {
   height: 32px;
   width: 228px;
+  justify-content: right;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -71,7 +73,53 @@ padding-left: 64px;
 
 }
 
+.digits {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.section-title {
+}
+.section-subtitle {
+}
+.table {
+}
+.table__cell {
+}
+.table__heading {
+}
+.table__text {
+}
 
+.feynman {
+}
+.feynman__title {
+}
+.feynman__subtitle {
+}
+.feynman__link {
+}
+
+.kaufman {
+}
+.section-title {
+}
+.section-title-theme_dark {
+}
+.section-subtitle {
+}
+.section-subtitle_theme_dark {
+}
+.table_theme_dark {
+}
+.table__cell-theme-dark {
+}
+.table__heading-theme-dark {
+}
+.table__text-theme-dark {
+}
+.kaufman__triangle {
+}
 
 
 
