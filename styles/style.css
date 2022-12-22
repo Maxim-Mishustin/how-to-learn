@@ -64,7 +64,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-  position: absolutes;
+  position: absolute;
   z-index: 1;
 }
 
@@ -167,7 +167,7 @@
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: 600px;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -316,7 +316,7 @@
   margin: 60px auto 40px;
   width: 90%;
   min-height: 250px;
-  padding: 60px auto 40px;
+  padding: 0;
 }
 
 .footer__column {
@@ -375,7 +375,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px auto 16px;
+  margin: 0;
   padding: 0;
 }
 
