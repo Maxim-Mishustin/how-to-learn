@@ -1,0 +1,16 @@
+@keyframes rotation {
+  from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotation {
+  transform: rotate(360deg);
+  transition-duration: 20s;
+  transition-timing-function: linear; /* нужно ли плавное движение? */
+  overflow: hidden;
+  animation-iteration-count: infinite;
+}
