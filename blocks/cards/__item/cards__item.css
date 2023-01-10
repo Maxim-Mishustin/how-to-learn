@@ -1,0 +1,10 @@
+.cards__item {
+  display: flex;
+  width: 240px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  outline: 1px solid red;
+  margin: 0;
+}
