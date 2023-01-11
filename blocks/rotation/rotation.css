@@ -8,10 +8,5 @@
 }
 
 .rotation {
-
-  /* animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-play-state: running; */
   animation: rotation 20s linear infinite running;
 }

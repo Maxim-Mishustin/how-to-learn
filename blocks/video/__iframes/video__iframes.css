@@ -3,4 +3,7 @@ list-style-type: none;
 display: flex;
 position: relative;
 bottom: -50px;
+gap: 0 20px;
+padding: 0;
+
 }
